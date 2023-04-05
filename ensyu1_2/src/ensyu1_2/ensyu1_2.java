@@ -1,0 +1,25 @@
+package ensyu1_2;
+/*
+ * クラス名：ensyu1_1
+ * 概要；演習1_1
+ * 作成者：Oikawa Kouhei
+ * 作成日：2023/04/05
+ */
+public class ensyu1_2 {
+/*
+ * 関数名：main関数
+ * 概要：及川康平を一文字ずつ改行して画面に表示
+ * 引数：String[] args
+ * 戻り値：なし
+ * パラメーター："及\n川\n康\n平"
+ */
+	public static void main(String[] args) {
+/*
+ * System.out.println(); :引数のを画面に出力するための処理
+ * "及\n川\n康\n平" ：各文字の中に「\n」をいれ、一文字ごとに改行して表示されるようにするための処理
+ */
+		System.out.println("及\n川\n康\n平");
+// mainメソッドを閉じる処理
+	}
+// classを閉じる処理
+}
