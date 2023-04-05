@@ -11,7 +11,7 @@ public class ensyu1_1 {
 	 * メソッドの説明：コンソール画面に("")内の文字を出力する
 	 * パラメータの説明：なし
 	 * 返り値：void
-     */
+	 */
 	public static void main(String[] args) {
 		// コンソール画面に「初めてのJavaプログラム。」が出力されるようにしたもの。
 		System.out.println("初めてのJavaプログラム。")
