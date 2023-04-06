@@ -1,9 +1,6 @@
 package ensyu2_6;
-
+// java.util.Scannerのパッケージを利用するための宣言
 import java.util.Scanner;
-
-// java.util.Scannerパッケージを利用するための宣言
-
 
 /*
  * クラス名：ensyu2_6
