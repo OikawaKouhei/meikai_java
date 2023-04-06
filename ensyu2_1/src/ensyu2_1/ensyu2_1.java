@@ -29,16 +29,16 @@ public class ensyu2_1 {
 		// 変数secondNumberに実数値6.4を代入する
 		secondNumber = 6.7;
 
-		// 「firstNumberの値は" + firstNumber + "です。」を出力する
+		// 画面に、「firstNumberの値は、（firstNumberに代入された値）です。」が出力される。
 		System.out.println("firstNumberの値は" + firstNumber + "です。");
 		
-		// 「secondNumberの値は" + secondNumber + "です。」を出力する
+		// 画面に、「SecondNumberの値は、（SecondNumberに代入された値）です。」が出力される。
 		System.out.println("secondNumberの値は" + secondNumber + "です。");
 		
-		// 「合計は" + (firstNumber + secondNumber) + "です。」を出力する
+		// 画面に、「合計は、（firstNumberとsecondNumberの合計）です。」が出力される。
 		System.out.println("合計は" + (firstNumber + secondNumber) + "です。");
 		
-		// 「平均は" + (firstNumber + secondNumber) / 2 + "です。」を出力する
+		// 画面に、「合計は、（firstNumberとsecondNumberの平均）です。」が出力される。
 		System.out.println("平均は" + (firstNumber + secondNumber) / 2 + "です。");
 	}
 }
