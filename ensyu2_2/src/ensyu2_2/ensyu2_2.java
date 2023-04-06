@@ -32,7 +32,7 @@ public class ensyu2_2 {
 		
 		/*
 		 * System.out.println("")：「三つの値の合計は" + (firstNumber + secondNumber + thirdNumber) + "です。」を画面に出力する
-		 * 
+		 * System.out.println("")：「三つの値の平均は" + (firstNumber + secondNumber + thirdNumber) / 3 + "です。」を画面に出力する
 		 */
 		System.out.println("三つの値の合計は" + (firstNumber + secondNumber + thirdNumber) + "です。");
 		System.out.println("三つの値の平均は" + (firstNumber + secondNumber + thirdNumber) / 3 + "です。");
