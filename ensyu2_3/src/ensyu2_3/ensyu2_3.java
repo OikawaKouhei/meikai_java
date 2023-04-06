@@ -22,12 +22,10 @@ public class ensyu2_3 {
 		// 標準入力を取得するため
 		Scanner standardInput = new Scanner(System.in);
 		
-		// 「整数値：」を出力するため
 		System.out.print("整数値：");
 		// 標準入力した整数値を、変数resultNumberに代入する
 		int resultNumber= standardInput.nextInt();
 		
-		// 「resultNumber + "と入力しましたね。」を出力する
 		System.out.println(resultNumber + "と入力しましたね。");
 	}	
 }
