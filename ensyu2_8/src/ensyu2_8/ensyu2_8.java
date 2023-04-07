@@ -1,13 +1,9 @@
 package ensyu2_8;
 
-import java.util.Random;
-import java.util.Scanner;
-
-// java.util.Scannerのパッケージを利用するための宣言
-
-
 // java.util.Randomのパッケージを利用するための宣言
-
+import java.util.Random;
+// java.util.Scannerのパッケージを利用するための宣言
+import java.util.Scanner;
 
 /*
  * クラス名：ensyu2_8
