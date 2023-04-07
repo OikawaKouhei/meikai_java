@@ -21,15 +21,19 @@ public class ensyu2_5 {
 		// 標準入力を取得するため。
 		Scanner standardInput = new Scanner(System.in);
 		
+		// 「firstDoubleの値：」を出力し、実数値の入力を促すため
 		System.out.print("firstDoubleの値：");
 		// 標準入力した実数値を、firstDoubleに代入する
 		double firstDouble = standardInput.nextDouble();
 		
+		// 「secondDoubleの値：」を出力し、実数値の入力を促すため
 		System.out.print("secondDoubleの値：");
 		// 標準入力した実数値を、secondDoubleに代入する
 		double secondDouble = standardInput.nextDouble();
 		
+		// 「firstDouble + secondDouble」を計算し、firstDoubleとsecondDoubleの合計値を出力するため
 		System.out.println("合計は" + (firstDouble + secondDouble) + "です。");
+		// 「(firstDouble + secondDouble) / 2」を計算し、firstDouble + secondDoubleの平均値を出力するため
 		System.out.println("平均は" + (firstDouble + secondDouble) / 2 + "です。");
 	}
 
