@@ -14,7 +14,7 @@ public class ensyu2_6 {
 	 * 概要：底辺と高さを実数値で入力し、三角形の面積を求める。
 	 * 引数：String[] args
 	 * 返り値：なし
-	 * パラメーターの説明：triangleBottom , triangleHigh
+	 * パラメーターの説明：triangleBottom , triangleHeight
 	 */
 	public static void main(String[] args) {
 		// 標準入力を取得するため
@@ -30,10 +30,10 @@ public class ensyu2_6 {
 		
 		// 三角形の高さを、実数値で入力を促すため
 		System.out.print("高さ：");
-		// 標準入力した実数値を、変数trianglehighに代入
-		double triangleHigh = standardInput.nextDouble();
+		// 標準入力した実数値を、変数triangleHeightに代入
+		double triangleHeight = standardInput.nextDouble();
 		
-		// 「(triangleBottom * triangleHigh) / 2 」を計算し、三角形の面積を出力するため
-		System.out.println("面積は" + (triangleBottom * triangleHigh) / 2 + "です。");
+		// 「(triangleBottom * triangleHeight) / 2 」を計算し、三角形の面積を出力するため
+		System.out.println("面積は" + (triangleBottom * triangleHeight) / 2 + "です。");
 	}
 }
