@@ -33,7 +33,7 @@ public class ensyu2_8 {
 		int inputNumber = standardInput.nextInt();
 		
 		// -5以上5以下の乱数を生成するため
-		int firstRandom = randomNumber.nextInt(11 - 5);
+		int firstRandom = randomNumber.nextInt(11) - 5;
 		
 		// 「その値の±5の乱数を生成しました」を出力する
 		System.out.println("その値の±5の乱数を生成しました");
