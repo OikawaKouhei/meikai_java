@@ -28,11 +28,13 @@ public class ensyu2_9 {
 		double secondRandom = randomNumber.nextDouble();
 		// 0.0以上1.0未満の範囲の乱数を生成すために、もう一度0.0以上1.0未満の範囲の乱数を生成する
 		double thirdRandom = randomNumber.nextDouble();
+		// 0以上9の範囲の乱数を生成する
+		int fourthNumber = randomNumber.nextInt(10);
 		
 		// 0.0以上1.0未満の範囲の乱数を出力する
 		System.out.println(firstRandom);
 		// 0.0以上10.0未満の範囲の乱数を出力する
-		System.out.println(secondRandom + 10);
+		System.out.println(secondRandom + fourthNumber);
 		// -1.0以上1.0未満の範囲の乱数を出力する
 		System.out.println(firstRandom - thirdRandom );
 	}
