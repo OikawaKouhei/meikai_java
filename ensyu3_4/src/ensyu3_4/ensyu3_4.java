@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*
  * クラス名：ensyu3_4
- * 概要：園主3_4
+ * 概要：演習3_4
  * 作成者：OikawaKouhei
  * 作成日：2023/04/10
  */
@@ -20,15 +20,15 @@ public class ensyu3_4 {
 		// 標準入力するため
 		Scanner standardInput = new Scanner(System.in);
 		
-		// 「整数値A：」を出力し、以降に整数値の入力を促す
-		System.out.print("整数値A：");
+		// 「値A：」を出力し、以降に整数値の入力を促す
+		System.out.print("値A：");
 		// 変数firstNumberに入力した整数値を代入する
-		int firstNumber = standardInput.nextInt();
+		double firstNumber = standardInput.nextDouble();
 		
-		// 「整数値B：」を出力し、以降に整数値の入力を促す
-		System.out.print("整数値B：");
+		// 「値B：」を出力し、以降に整数値の入力を促す
+		System.out.print("値B：");
 		// 変数secondNumberに入力した整数値を代入する
-		int secondNumber = standardInput.nextInt();
+		double secondNumber = standardInput.nextDouble();
 		
 		// 変数firstNumberと変数secondNumberが同じ値でないとき、trueと判定する
 		if (firstNumber != secondNumber)
