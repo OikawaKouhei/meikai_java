@@ -31,13 +31,13 @@ public class ensyu3_7 {
 			if (firstNumber % 3 == 0)
 			// 3で割り切れる場合「その値は3で割り切れます。」
 			System.out.println("その値は3で割り切れます。");
-				// 変数firstNumberを3で割ったとき、1余るかを判定する
+			// 変数firstNumberを3で割ったとき、1余るかを判定する
 			else if (firstNumber % 3 == 1)
-				// 変数firstNumberを3で割ったとき、1余る場合、「その値を3で割った余りは1です。」と表示する
+			// 変数firstNumberを3で割ったとき、1余る場合、「その値を3で割った余りは1です。」と表示する
 			System.out.println("その値を3で割った余りは1です。");
-				// 変数firstNumberを3で割ったとき、1余らなかった場合を判定する
+			// 変数firstNumberを3で割ったとき、1余らなかった場合を判定する
 			else 
-				// 変数firstNumberを3で割ったとき、1余らなかった場合、「その値を3で割った余りは2です。」と表示する
+			// 変数firstNumberを3で割ったとき、1余らなかった場合、「その値を3で割った余りは2です。」と表示する
 			System.out.println("その値を3で割った余りは2です。");
 		// 変数firstNumberが正の整数値でない場合を判定する
 		else
