@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class ensyu3_3 {
 	/*
 	 * 関数名：main関数
-	 * 概要：
-	 * 引数：
-	 * 返り値：
-	 * パラメーターの説明：
+	 * 概要：List3_5の最後のelseを、if(firstNumber == 0)に変更した場合の検証
+	 * 引数：String[]args
+	 * 返り値：なし
+	 * パラメーターの説明：なし
 	 */
 	public static void main(String[] args) {
 		// 標準入力するため
