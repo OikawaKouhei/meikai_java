@@ -22,11 +22,11 @@ public class Ensyu3_11 {
 		
 		// 「整数A：」を表示し、整数値の入力を促す
 		System.out.print("整数A：");
-		// 変数firstNumberに、入力した値を代入
+		// 変数firstNumberに、入力した値を初期化
 		int firstNumber =standardInput.nextInt();
 		// 「整数B：」を表示し、整数値の入力を促す
 		System.out.print("整数B：");
-		// 変数secondNumberに、入力した値を代入
+		// 変数secondNumberに、入力した値を初期化
 		int secondNumber = standardInput.nextInt();
 		
 		// 大きいほうの値を、代入するために変数bigNumberを生成し、大きい値がどちらかを判定する
