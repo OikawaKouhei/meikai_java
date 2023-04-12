@@ -18,30 +18,30 @@ public class Ensyu3_15 {
 	 * パラメーターの説明：なし
 	 */
 	public static void main(String[] args) {
-		//標準入力するため
+		// 標準入力するため
 		Scanner standardInput = new Scanner(System.in);
 
 		//「整数値A：」を表示し、以降に整数値の入力を促す
 		System.out.print("整数値A：");
-		//入力された値で初期化するために、変数firstNumberを生成
+		// 入力された値で初期化するために、変数firstNumberを生成
 		int firstNumber = standardInput.nextInt();
 		//「整数値B：」を表示し、以降に指数値の入力を促す
 		System.out.print("整数値B：");
-		//入力された値で初期化するために、変数secondNumberを生成
+		// 入力された値で初期化するために、変数secondNumberを生成
 		int secondNumber = standardInput.nextInt();
 
-		//二つの値をソートするために、一時保存用の変数toolNumberを宣言し、初期化する
+		// 二つの値をソートするために、一時保存用の変数toolNumberを宣言し、初期化する
 		int toolNumber = 0;
 
-		//整数Bが整数Aより大きい値だった場合、交換するため判断する
-		if (firstNumber < secondNumber)
-			//現在のfirstNumberの値を保存するため代入する
+		// 整数Bが整数Aより大きい値だった場合、交換するため判断する
+		if (firstNumber < secondNumber) {
+			// 現在のfirstNumberの値を保存するため代入する
 			toolNumber = firstNumber;
-		//secondNumberの値を整数Aとして表示するために代入
-		firstNumber = secondNumber;
-		//toolNumberの値を整数Bとして表示するために代入
-		secondNumber = toolNumber;
-
+			// secondNumberの値を整数Aとして表示するために代入
+			firstNumber = secondNumber;
+			// toolNumberの値を整数Bとして表示するために代入
+			secondNumber = toolNumber;
+		}
 		//「A≧Bとなるようにソートしました。」と表示する
 		System.out.println("A≧Bとなるようにソートしました。");
 		//「整数値A：」の後に、二つの整数値のうち、大きいほうを表示する
