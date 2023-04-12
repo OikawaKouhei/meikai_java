@@ -16,44 +16,49 @@ public class Ensyu3_14 {
 	 * パラメーターの説明：なし
 	 */
 	public static void main(String[] args) {
-		//	標準入力するため
+		// 標準入力するため
 		Scanner standardInput = new Scanner(System.in);
 		
-		//	「整数A」を表示し、以降に整数値の入力を促す。入力された値で初期化するため、変数firstNumberを作成
-		System.out.print("整数A："); int firstNumber = standardInput.nextInt();
-		//	「整数B」を表示し、以降に整数値の入力を促す。入力された値で初期化するため、変数secondNumberを作成
-		System.out.print("整数B："); int secondNumber = standardInput.nextInt();
+		//「整数A」を表示し、以降に整数値の入力を促す。
+		System.out.print("整数A：");
+		// 変数firstNumberを作成し、入力された値で初期化する
+		int firstNumber = standardInput.nextInt();
+		//「整数B」を表示し、以降に整数値の入力を促す。
+		System.out.print("整数B：");
+		// 変数secondNumberを作成し、入力された値で初期化する
+		int secondNumber = standardInput.nextInt();
 		
-		//	変数minimumNumberと変数maxNumberを宣言し初期化する
+		// 変数minimumNumberを宣言し初期化する
 		int minimumNumber = 0;
+		// 変数maxNumberを宣言し初期化する
 		int maxNumber = 0;
 		
-		//	firstNumberとsecondNumberが同じ値でないか判定する
+		// firstNumberとsecondNumberが同じ値でないか判定する
 		if (firstNumber != secondNumber) {
-			//	同じ値でないと判定した場合、firstNumberのほうがsecondNumberより小さいかを判定する
+			// 同じ値でないと判定した場合、firstNumberのほうがsecondNumberより小さいかを判定する
 			if (firstNumber < secondNumber) {
-			//	firstNumberのほうがsecondNumberより小さいと判定したら、minimumNuberにfirstNumberを代入する
+			// minimumNuberにfirstNumberを代入する
 			minimumNumber = firstNumber;
-			//	firstNumberのほうがsecondNumberより小さいと判定したら、maxNuberにsecondNumberを代入する
+			// maxNuberにsecondNumberを代入する
 			maxNumber = secondNumber;
-				//小さい値と判定した値を表示する
+				// 小さい値と判定した値を表示する
 				System.out.println("小さいほうの値は" + minimumNumber + "です。");
-				//	大きい値と判定した値を表示する
+				// 大きい値と判定した値を表示する
 				System.out.println("大きいほうの値は" + maxNumber + "です。");
 			
-			//	secondNumberのほうがfirstNumberより小さいかを判定する
+			// secondNumberのほうがfirstNumberより小さいかを判定する
 			} else {
-			//	secondNumberのほうがfirstNumberより小さいかを判定したら、minimumNuberにsecondNumberを代入する
+			// minimumNuberにsecondNumberを代入する
 			minimumNumber = secondNumber;
-			//	secondNumberのほうがfirstNumberより小さいかを判定したら、maxNuberにfirstNumberを代入する
+			// maxNuberにfirstNumberを代入する
 			maxNumber = firstNumber;
-				//小さい値と判定した値を表示する
+				// 小さい値と判定した値を表示する
 				System.out.println("小さいほうの値は" + minimumNumber + "です。");
-				//	大きい値と判定した値を表示する
+				// 大きい値と判定した値を表示する
 				System.out.println("大きいほうの値は" + maxNumber + "です。");
-		//	firstNumberとsecondNumberが同じ値であると判定する
-		}} else {
-			//	「二つの値は同じです。」と表示する
+			}
+		} else {
+			//「二つの値は同じです。」と表示する
 			System.out.println("二つは同じ値です。");
 		}
 	}
