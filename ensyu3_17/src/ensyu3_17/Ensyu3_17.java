@@ -25,15 +25,15 @@ public class Ensyu3_17 {
 		switch (luckyNumber) {
 			// 0が生成された場合、「グー」と表示する
 			case 0 : System.out.print("グー");
-			// case0の場合に、switch文を抜け出すため
+			// switch文を抜け出すため
 			break;
 			// 1が生成された場合、「チョキ」と表示する
 			case 1 : System.out.print("チョキ");
-			// case1の場合に、switch文を抜け出すため
+			// switch文を抜け出すため
 			break;
 			// 2が生成された場合、「パー」と表示する
 			case 2 : System.out.print("パー");
-			// case2の場合に、switch文を抜け出すため
+			// switch文を抜け出すため
 			break;
 		}
 	}
