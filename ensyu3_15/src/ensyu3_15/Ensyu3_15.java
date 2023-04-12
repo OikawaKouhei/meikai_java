@@ -23,17 +23,17 @@ public class Ensyu3_15 {
 
 		//「整数値A：」を表示し、以降に整数値の入力を促す
 		System.out.print("整数値A：");
-		// 入力された値で初期化するために、変数firstNumberを生成
+		// 変数firstNumberを生成し、入力された値で初期化する
 		int firstNumber = standardInput.nextInt();
 		//「整数値B：」を表示し、以降に指数値の入力を促す
 		System.out.print("整数値B：");
-		// 入力された値で初期化するために、変数secondNumberを生成
+		// 変数secondNumberを生成し、入力された値で初期化する
 		int secondNumber = standardInput.nextInt();
 
 		// 二つの値をソートするために、一時保存用の変数toolNumberを宣言し、初期化する
 		int toolNumber = 0;
 
-		// 整数Bが整数Aより大きい値だった場合、交換するため判断する
+		// secondNumberがfirstNumberより大きい場合を判断する
 		if (firstNumber < secondNumber) {
 			// 現在のfirstNumberの値を保存するため代入する
 			toolNumber = firstNumber;
