@@ -21,15 +21,15 @@ public class Ensyu3_12 {
 		
 		// 「整数値A：」を表示し、以降に整数値の入力を促す。 
 		System.out.print("整数値A：");
-		// 入力した値を、変数firstNumberに代入
+		// 入力した値を、変数firstNumberに初期化
 		int firstNumber = standardInput.nextInt();
 		// 「整数値B：」を表示し、以降に整数値の入力を促す。
 		System.out.print("整数値B：");
-		// 入力した値を、変数secondNumberに代入
+		// 入力した値を、変数secondNumberに初期化
 		int secondNumber = standardInput.nextInt();
 		// 「整数値C：」を表示し、以降に整数値の入力を促す。
 		System.out.print("整数値C：");
-		// 入力した値を、変数thirdNumberに代入
+		// 入力した値を、変数thirdNumberに初期化
 		int thirdNumber = standardInput.nextInt();
 		
 		// のちに、最小値を代入するために、変数minimumValueを生成し、firstNumberの値で初期化する
