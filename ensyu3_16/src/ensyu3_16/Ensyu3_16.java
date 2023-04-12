@@ -21,15 +21,15 @@ public class Ensyu3_16 {
 		
 		//	「整数値A：」と表示し、以降に整数値の入力を促す
 		System.out.print("整数値A：");
-		//	入力された値で初期化するために、変数firstNumberを生成
+		//	変数firstNumberを生成し、入力された値で初期化する
 		int firstNumber = standardInput.nextInt();
 		//	「整数値B：」と表示し、以降に整数値の入力を促す
 		System.out.print("整数値B：");
-		//	入力された値で初期化するために、変数secondNumberを生成
+		//	変数secondNumberを生成し、入力された値で初期化する
 		int secondNumber = standardInput.nextInt();
 		//	「整数値C：」と表示し、以降に整数値の入力を促す
 		System.out.print("整数値C：");
-		//	入力された値で初期化するために、変数thirdNumberを生成
+		//	変数thirdNumberを生成し、入力された値で初期化する
 		int thirdNumber = standardInput.nextInt();
 		
 		//	作業用の変数toolNumberを生成し初期化
@@ -37,35 +37,37 @@ public class Ensyu3_16 {
 		
 		//	整数値Aの値が、整数値Bの値よりも大きいか判断する
 		if (firstNumber > secondNumber) {
-		//	変数firstNumberを保存するため、toolNumberに代入
+			// toolNumberに代入してfirstNumberを保存する
 			toolNumber = firstNumber;
-		//	変数firstNumberに変数secondNumberを代入
+			// 変数firstNumberに変数secondNumberを代入
 			firstNumber = secondNumber;
-		//	変数secondNumberにtoolNumberを代入
+			// 変数secondNumberにtoolNumberを代入
 			secondNumber = toolNumber;
-		//	整数値Aの値が、整数値Bよりも大きいか判断する
-		}	if (firstNumber > thirdNumber) {
-				//	変数firstNumberを保存するため、toolNumberに代入
+			// 整数値Aの値が、整数値Cよりも大きいか判断する
+			} if (firstNumber > thirdNumber) {
+				// toolNumberに代入してfirstNumberを保存する
 				toolNumber = firstNumber;
-				//	変数firstNumberに変数thirdNumberを代入
+				// 変数firstNumberに変数thirdNumberを代入
 				firstNumber = thirdNumber;
-				//	変数thirdNumberにtoolNumberを代入
+				// 変数thirdNumberにtoolNumberを代入
 				thirdNumber = toolNumber;
-				//	整数値Bの値が、整数値Cよりも大きいか判断する
-			}	if (secondNumber > thirdNumber) {
-					//	変数secondNumberを保存するため、toolNumberに代入
+				// 整数値Bの値が、整数値Cよりも大きいか判断する
+				} if (secondNumber > thirdNumber) {
+					// 変数secondNumberを保存するため、toolNumberに代入
 					toolNumber = secondNumber;
-					//	変数secondNumberに変数thirdNumberを代入
+					// 変数secondNumberに変数thirdNumberを代入
 					secondNumber = thirdNumber;
-					//	変数thirdNumberにtoolNumberに代入
+					// 変数thirdNumberにtoolNumberに代入
 					thirdNumber = toolNumber;
 				}
 		
-		//	「昇順になるようにソートしました」と表示
+		//「昇順になるようにソートしました」と表示
 		System.out.println("昇順になるようにソートしました");
-		//	数値を上から昇順に表示
+		// firstNumberの数値を表示
 		System.out.println("整数値A：" + firstNumber);
+		// secondNumberの数値を表示
 		System.out.println("整数値B：" + secondNumber);
+		// thirdNumberの数値を表示
 		System.out.println("整数値C：" + thirdNumber);
 	}
 
