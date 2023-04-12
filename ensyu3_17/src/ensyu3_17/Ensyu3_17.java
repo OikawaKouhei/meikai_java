@@ -1,5 +1,5 @@
 package ensyu3_17;
-//	java.util.Randomのパッケージを利用するための宣言
+// java.util.Randomのパッケージを利用するための宣言
 import java.util.Random;
 /*
  * クラス名：Ensyu3_17
@@ -16,19 +16,25 @@ public class Ensyu3_17 {
 	 * パラメーターの説明：なし
 	 */
 	public static void main(String[] args) {
-		//	乱数を生成するため
+		// 乱数を生成するため
 		Random randomNumber = new Random();
-		//	変数luckyNumberを、0から1で初期化する
+		// 変数luckyNumberを、0から2で初期化する
 		int luckyNumber = randomNumber.nextInt(3);
 		
-		//	0,1,2の生成された乱数に応じて、グー、チョキ、パーを表示するため、
+		// 0,1,2の生成された乱数に応じて、グー、チョキ、パーを表示するため、
 		switch (luckyNumber) {
-			//	0が生成された場合、「グー」と表示する
-			case 0 : System.out.print("グー");	break;
-			//	1が生成された場合、「チョキ」と表示する
-			case 1 : System.out.print("チョキ");	break;
-			//	2が生成された場合、「パー」と表示する
-			case 2 : System.out.print("パー");	break;
+			// 0が生成された場合、「グー」と表示する
+			case 0 : System.out.print("グー");
+			// case0の場合に、switch文を抜け出すため
+			break;
+			// 1が生成された場合、「チョキ」と表示する
+			case 1 : System.out.print("チョキ");
+			// case1の場合に、switch文を抜け出すため
+			break;
+			// 2が生成された場合、「パー」と表示する
+			case 2 : System.out.print("パー");
+			// case2の場合に、switch文を抜け出すため
+			break;
 		}
 	}
 
