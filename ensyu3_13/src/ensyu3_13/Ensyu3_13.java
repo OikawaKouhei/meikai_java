@@ -33,13 +33,39 @@ public class Ensyu3_13 {
 		// 変数thirdNumberを生成し、入力された値で初期化する
 		int thirdNumber = standardInput.nextInt();
 		
-		//	のちに、中央値を代入するために、変数medianNumberを生成し、firstNumberで初期化する
-		int medianNumber = firstNumber;
-		//	secondNumberがmedianNumberより大きいと判定したら、medianNumberにsecondNumberを代入する
-		if (medianNumber < secondNumber) { medianNumber = secondNumber; }
-		//	thirdNumberがmedianNumberより大きいと判定したら、medianNumberにthirdNumberを代入する
-		if (medianNumber > thirdNumber) { medianNumber = thirdNumber; }
+		// 中央値を代入するための変数medianNumberを生成し初期化する
+		int medianNumber = 0;
+			// firstNumberが最大値だった場合を判断する
+			if (secondNumber < firstNumber && thirdNumber < firstNumber) {
+				// secondNumberよりthirdNumberが大きい場合を判断する
+				if (secondNumber < thirdNumber) {
+					// その場合、medianNumberにthirdNumberを代入する
+					medianNumber = thirdNumber;
+				// 大きくない場合を判断する
+				} else {
+					// その場合、medianNumberにsecondNumberを代入する
+					medianNumber = secondNumber;
+				}
+			}
+			// firstNumberが最小値だった場合を判断する
+			else if (secondNumber > firstNumber && thirdNumber > firstNumber) {
+				// secondNumberよりthirdNumberが大きい場合を判断する
+				if (secondNumber < thirdNumber) {
+					// その場合、medianNumberにsecondNumberを代入する
+					medianNumber = secondNumber;
+				// 大きくない場合を判断する
+				} else {
+				// その場合、medianNumberにthirdNumberを代入する
+					medianNumber = thirdNumber;
+				}
+			}
+			// Aが中央値だった場合を判断する
+			else {
+				// medianNumberにfirstNumberを代入する
+				medianNumber = firstNumber;
+			}
 		
+			
 		//	最終的に代入されたmedianNumberを中央値として表示する。
 		System.out.println("中央値は" + medianNumber + "です。");
 	}
