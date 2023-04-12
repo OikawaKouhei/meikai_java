@@ -3,8 +3,8 @@ package ensyu3_11;
 import java.util.Scanner;
 
 /*
- * クラス名：Ensyu3_1
- * 概要：演習3_1
+ * クラス名：Ensyu3_11
+ * 概要：演習3_11
  * 作成者：OikawaKouhei
  * 作成日：2023/04/10
  */
