@@ -51,7 +51,7 @@ public class Ensyu3_18 {
 			case 11 : System.out.print("それは秋です。"); break;
 			// 12月が入力された場合、「それは冬です」と表示する。スイッチ文を抜け出すため。
 			case 12 : System.out.print("それは冬です。"); break;
-			// 該当しない入力がされた場合「エラー」ｔｐ表示する。スイッチ文を抜け出すため。
+			// 該当しない入力がされた場合「エラー」と表示する。スイッチ文を抜け出すため。
 			default : System.out.print("エラー"); break;
 		}
 	}
