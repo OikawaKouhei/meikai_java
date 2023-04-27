@@ -33,7 +33,7 @@ public class Ensyu7_5 {
 		// 標準入力するため
 		Scanner standardInput = new Scanner(System.in);
 		
-		// こんにちはを表示して改行する動作を入力値分実行
+		// hellメソッドを表示
 		hello();
 	}
 
