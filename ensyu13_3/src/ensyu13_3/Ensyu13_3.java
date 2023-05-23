@@ -25,7 +25,7 @@ public class Ensyu13_3 {
 		HyumanPlayer humanHands = new HyumanPlayer();
 		/** 人間側の出した手を表示*/
 		humanHands.printHands();
-		
+
 		/** computerHandsをComputerPlayerクラス型変数でインスタンス化*/
 		ComputerPlayer computerHands = new ComputerPlayer();
 		/** 人間側の出した手を表示*/

@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class HyumanPlayer extends GamePlayer {
 	// プレイヤーの手を表すフィールド変数
 	private int handsNumber;
-	
+
 	/*
 	 * コンストラクタ
 	 * 概要：1から3までの入力値で初期化

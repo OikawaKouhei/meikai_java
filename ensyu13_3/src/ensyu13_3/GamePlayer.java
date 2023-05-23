@@ -46,7 +46,7 @@ public abstract class GamePlayer {
 	 * 作成日：2023/05/21
 	 */
 	public abstract String toString();
-	
+
 	/*
 	 * 関数名；printHands
 	 * 概要：文字列を表示するメソッド
@@ -59,7 +59,4 @@ public abstract class GamePlayer {
 		// toStringメソッドを表示
 		System.out.println(toString());
 	}
-	
-	
-	
 }
